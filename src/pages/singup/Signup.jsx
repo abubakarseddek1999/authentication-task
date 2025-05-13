@@ -23,6 +23,11 @@ export default function Signup() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+         // check if agency is selected
+    if (!formData.agency) {
+        alert("Please select whether you are an agency.");
+        return;
+    }
 
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
