@@ -35,7 +35,7 @@ export default function Login() {
 
     return (
         <div>
-            <div className="flex flex-col  max-w-md mx-auto min-h-screen border border-gray-200">
+            <div className="flex flex-col bg-[#F7F8F9] max-w-md mx-auto min-h-screen border border-gray-200">
                 <div className="w-full max-w-sm mx-auto mt-5">
                     <h1 className="text-2xl font-semibold text-gray-900 mb-2">Signin to your PopX account</h1>
                     <p className="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
         <div>
-            <div className="flex flex-col justify-end max-w-md mx-auto min-h-screen border border-gray-200 ">
-                <div className="bg-white rounded-lg p-8 w-full flex flex-col items-center">
+            <div className="flex flex-col bg-[#F7F8F9] justify-end max-w-md mx-auto min-h-screen border border-gray-200 ">
+                <div className="rounded-lg p-8 w-full flex flex-col items-center">
                     <div className="w-full max-w-sm mx-auto">
                         <h1 className="text-2xl font-semibold text-gray-900 mb-2">Welcome to PopX</h1>
-                        <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="text-gray-600 mb-8">This is a demo application for showcasing features.</p>
 
                         <Link to="/signup">
                             <button

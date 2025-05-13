@@ -37,7 +37,7 @@ export default function Signup() {
 
     return (
         <>
-            <div className="flex flex-col  max-w-md mx-auto min-h-screen border border-gray-200">
+            <div className="flex flex-col  max-w-md mx-auto min-h-screen border bg-[#F7F8F9] border-gray-200">
                 <div className="w-full max-w-sm mx-auto">
                     <h1 className="text-2xl mt-5 font-semibold text-gray-900 mb-6">Create your PopX account</h1>
 
